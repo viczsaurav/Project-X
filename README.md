@@ -1,5 +1,4 @@
-# Project-X
-App Challenge
+## Project-X -App Challenge
 
 Following are the components + functionalities:
 
