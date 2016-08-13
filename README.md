@@ -1,3 +1,5 @@
+Clone Repository, follow : https://help.github.com/articles/cloning-a-repository/
+
 ## Project-X -App Challenge
 
 Following are the components + functionalities:
