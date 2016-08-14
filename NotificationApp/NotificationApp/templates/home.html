@@ -1,0 +1,51 @@
+i<!-- extend from base layout -->
+{% extends "base.html" %}
+
+<!-- start of block-->
+{% block content %}
+
+<div class="container-fluid">
+
+	<!--<form class="form-inline" action="/createconfig/" method="post" enctype="multipart/form-data" >
+		 Enginuity Level
+		<div class="form-group"  margin="5px 5px 5px 5px">
+		  	<label class="sr-only" for="enginuity_id">Enginuity Type </label>
+		    <select class="form-control" id="enginuity_id" name="enginuity_id">
+		    	<option value=""> Enginuity level </option>
+		    {% for etype in enginuity %}
+		    	<option value="{{ etype }}">{{ etype }}</option>
+		    {% endfor %}
+		    </select>
+		</div>	
+
+	</form>
+
+</div>
+</div>
+</div>
+<div class="row">
+	<div class="span3 offset2">
+		<input type="submit" class="btn btn-primary" value=" Submit" float="right"/>
+		<a href="/home/" class="btn btn-danger" float="right"> Reset </a>
+	</div>
+	<br>
+</div>
+-->
+
+	    <div class="col-md-8";"> 
+	    <row>
+	            <div class="form-group col-md-6 ">                                
+	                <label id="messageLabel" for="message">Message </label>
+	                <textarea class="form-control input-sm " type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+	                    <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+	            </div>
+	        <div class="form-group col-md-2">
+	        	<button class="form-control input-sm btn btn-success disabled" id="btnSubmit" name="btnSubmit" type="button" style="height:35px"> Send</button>    
+	    	</div>
+	    </row>
+	    </div>
+</div>
+{% endblock %} 
+<!-- End of block-->
+
+<!-- End of File -->

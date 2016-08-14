@@ -1,0 +1,35 @@
+.navbar-brand {
+  height: 10px;
+}
+
+.col-md-2 {
+	float: right;
+}
+
+.nav-tabs { 
+	border-bottom: 0px; #important
+}
+
+
+.form-container {
+    position: relative;
+    width: 500px;
+    margin: 10px auto;
+    padding: 0px 40px 20px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.heading-container {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    padding: 0px 20px 0px;
+}
+
+.red{
+    color:red;
+    }
+
