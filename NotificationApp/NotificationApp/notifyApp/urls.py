@@ -7,6 +7,7 @@ urlpatterns = patterns('NotificationApp.notifyApp.views',
 
 	### RESTful GET Requests
      url(r'^$', 'notify', name='notify'),
+     url(r'^user/', 'user', name='user'),
      url(r'^requests/$', 'requests', name='requests'),
      url(r'^config/$', 'config', name='config'),
 
@@ -22,6 +23,7 @@ urlpatterns = patterns('NotificationApp.notifyApp.views',
     ### RESTful POST Requests
      # url(r'^setattendance/(?P<userid>.+)$', 'set_attendance', name='Set_Attendance'),
      # url(r'^setgcmregid/(?P<regid>.+)$', 'set_gcm_regID', name='Set GCM Reg ID'),
+
 
 
 )
